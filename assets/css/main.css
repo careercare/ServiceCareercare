@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+#wrapper {min-width:1240px;background:url('../../assets/img/main/visual.jpg') no-repeat center top;}
+#header {height:660px;}
+#header #top-ly h1 span {background:url('../../assets/img/main/line.gif') no-repeat left top;}
+#header #top-ly .util .fr .sns {margin-left:5px;}
+
+
+#main-gnb {position:absolute; top:145px;left:0px;}
+#main-gnb:after {display:block; content:"";clear:both;}
+#main-gnb ul li .dep01 {
+	position:relative;
+	width:230px;
+	font-size:19px;
+	font-family:'NanumBold';
+	color:#fff;
+	display:block;
+	padding:20px 0px 5px 20px;
+	height:34px;
+	margin-left:0px;
+	background:url('../../assets/img/main/line.png') repeat-x left bottom;
+}
+#main-gnb ul li .dep01 span {display:block;width:23px;height:23px;position:absolute; top:18px;right:15px;background:url('../../assets/img/main/m_off.png') no-repeat left top;}
+#main-gnb ul li.on {position:relative;}
+#main-gnb ul li.on .dep01 {color:#222;}
+#main-gnb ul li.on .dep01 span {background:url('../../assets/img/main/m_on.png') no-repeat left top;}
+#main-gnb ul li ul {display:none;}
+#main-gnb ul li.on ul {display:block;position:absolute; top:0px;left:250px;width:980px;z-index:1000;}
+#main-gnb ul li.on ul li {float:left;border-left:1px solid #222;}
+#main-gnb ul li.on ul li.first {border-left:none;background:url('../../assets/img/main/m_arrow.png') no-repeat left 50%;}
+#main-gnb ul li.on ul li a {display:block;color:#fff;padding:20px 15px 5px 15px;height:34px;background:url('../../assets/img/main/m_bg.png') repeat left top;}
+#main-gnb ul li.on ul li a:hover {color:#cc3333;}
+
+.copy-txt-box {color:#151515;text-align:center;position:absolute; top:145px;right:0px;width:980px;padding:160px 0 0 0;}
+.copy-txt-box p {font-family:'proxima-nova';font-weight:800;font-size:64px;padding:0 0 40px 0;}
+
+#border-box {height:230px;background:#877568;}
+#border-box .cnt-box {width:1024px;margin:0 auto;}
+#border-box .cnt-box div {position:relative;float:left;width:300px;margin:40px 0 0 48px;}
+#border-box .cnt-box .twiter-box {margin-left:0;}
+#border-box .cnt-box div ul {height:100px;overflow:hidden;}
+#border-box .cnt-box div h2 {padding:0 0 15px 0;}
+#border-box .cnt-box div a {color:#fff;line-height:22px;color:#fff;}
+#border-box .cnt-box div p {padding:10px 0 0 0;color:#c2b6ad;}
+#border-box .cnt-box div .btn {position:absolute; top:0px;right:0px;}
